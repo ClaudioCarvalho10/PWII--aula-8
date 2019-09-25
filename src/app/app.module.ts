@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InterpolationBindingComponent } from './interpolation-binding/interpolation-binding.component';
+import { PropertyComponent } from './property/property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterpolationBindingComponent
+    InterpolationBindingComponent,
+    PropertyComponent
   ],
   imports: [
     BrowserModule,
